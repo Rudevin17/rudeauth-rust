@@ -8,6 +8,18 @@ talked into a forged "success".
 Crypto is the dalek and RustCrypto stacks (ed25519-dalek, x25519-dalek,
 chacha20poly1305, hkdf); transport is ureq.
 
+## Set it up with AI
+
+Paste this into Claude Code, Cursor, or any LLM.
+
+```
+Add RudeAuth licensing to my Rust app.
+Read https://docs.rudeauth.com/llms.txt for how RudeAuth works, and follow this
+SDK's AGENTS.md rules: no bool is_licensed(), embed the public key, verify before
+trust, no offline cache, and gate real logic into a server-delivered payload.
+My app id is <APP_ID> and my public key is <PUBLIC_KEY>.
+```
+
 ## Add it
 
 ```
